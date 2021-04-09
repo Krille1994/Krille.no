@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: linear-gradient(rgb(19, 25, 26), rgb(206, 227, 255) );
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+}
+#CVbutton {
+    position: fixed;
+    text-align: center;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 5px;
+    border: solid 2px rgb(112, 240, 197);
+    padding: 30px;
+    right: 1vw;
+    top: 2vh;
+}
+#CVbutton:hover {
+    background-color: rgb(87, 216, 173);
+    border: solid 2px rgb(75, 190, 152);
+    transition: 0.3s;
+}
+
+#header {
+    text-align: center;
+    color: rgb(57, 190, 101);
+    font-size: 3em;
+    font-family: 'Merienda', cursive;
+}
+#metronomeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectHeader {
+    font-size: xx-large;
+    margin-top: 5vh;
+    text-align: center;
+}
+img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 2vh;
+}
+#modelChallengeDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cvFooter:hover {
+    font-size: large;
+    color: rgb(16, 47, 47);
+}
+#cvFooter {
+    padding: 2vh 0 2vh 0;
+    background-color: rgb(69, 104, 69);
+    text-align: center;
+}
